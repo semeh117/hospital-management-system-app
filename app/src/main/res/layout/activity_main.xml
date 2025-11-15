@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🏥 Hospital Management System"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnPatients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Patients"
+        android:layout_marginBottom="16dp"
+        android:onClick="onViewPatientsClick" />
+
+    <Button
+        android:id="@+id/btnDoctors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Doctors"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnAppointments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schedule Appointment"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnCallHospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Hospital"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnStartService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Appointment Checker"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnStopService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Appointment Checker"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Custom Java-instantiated views will be added here programmatically -->
+    <LinearLayout
+        android:id="@+id/customViewsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
+

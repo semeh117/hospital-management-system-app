@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">HospitalApp</string>
+<string name="hospital_phone">+1234567890</string>
+<string name="notification_channel_id">appointment_checker_channel</string>
+<string name="notification_channel_name">Appointment Checker</string>
+</resources>

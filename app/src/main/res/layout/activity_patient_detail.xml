@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F2FC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvPatientInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient Details"
+            android:textColor="#4A148C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etPatientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Patient Name"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#7E57C2"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etPatientAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#7E57C2"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textColor="#808080"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/rgGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <RadioButton
+                android:id="@+id/rbMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textColor="#4A148C"
+                android:buttonTint="#7E57C2"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/rbFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textColor="#4A148C"
+                android:buttonTint="#7E57C2"
+                android:layout_marginStart="24dp" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/etPatientPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#7E57C2"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/etPatientEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#7E57C2"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/btnSavePatient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Patient"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7E57C2"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
