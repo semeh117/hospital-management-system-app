@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btnAppointments = findViewById(R.id.btnAppointments);
         btnAppointments.setOnClickListener(this);
 
-        // Explicit Anonymous Listener
         Button btnStartService = findViewById(R.id.btnStartService);
         btnStartService.setOnClickListener(new View.OnClickListener() {
             @Override
